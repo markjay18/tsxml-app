@@ -1,0 +1,27 @@
+:root {
+    --body_background: white;
+    --body_color: black;
+    --messenger_color: #B794F4;
+    --font-heading: 'Poppins';
+    --navbar_color: #9763f1;
+    --rev_background: #282c34;
+    --rev_color: white;
+    --all_background: rgba(214, 188, 250, 0.5);
+}
+
+[data-theme='dark'] {
+    --body_background: #282c34;
+    --body_color: white;
+    --messenger_color: white;
+    --navbar_color: white;
+    --rev_background: white;
+    --rev_color: black;
+    --all_background: rgba(255, 255, 255, 0.5);
+}
+
+*{
+    transition: all 0.3s ease-in-out;
+}
+body {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
